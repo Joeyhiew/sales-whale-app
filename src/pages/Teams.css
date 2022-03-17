@@ -1,0 +1,10 @@
+body {
+  min-width: 100%;
+}
+.container {
+  margin-right: 0;
+  margin-left: 0;
+  padding: 0;
+  display: flex;
+  min-width: 100%;
+}
