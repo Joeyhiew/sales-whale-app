@@ -7,4 +7,20 @@ body {
   padding: 0;
   display: flex;
   min-width: 100%;
+  background-color: #f1f4f8;
+}
+.content-panel {
+  width: 100%;
+}
+.top-panel {
+  background-color: white;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 9;
+}
+.content-body {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }

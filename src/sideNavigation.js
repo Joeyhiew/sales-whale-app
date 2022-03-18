@@ -8,8 +8,11 @@ import LeadIcon from "./assets/sideNavigation/icon-leads.svg";
 import ReportIcon from "./assets/sideNavigation/icon-reports.svg";
 
 function SideNavigation() {
+  function changeNav(e) {
+    console.log(e);
+  }
   return (
-    <nav class="navbar">
+    <nav class="navbar" onClick={(e) => changeNav(e)}>
       <ul class="nav navbar-nav">
         <a class="navbar-brand" href="/">
           <img

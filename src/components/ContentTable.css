@@ -1,0 +1,129 @@
+.content-table {
+  background-color: white;
+  width: 80%;
+  margin-top: 42px;
+}
+.content-header {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Proxima Nova", sans-serif;
+  border-bottom: 1px solid #efefef;
+}
+
+.content-header > h2 {
+  font-size: 18px;
+  line-height: 22px;
+  margin-top: 28px;
+  margin-left: 30px;
+}
+.content-header > p {
+  font-size: 14px;
+  line-height: 17px;
+  color: #7f7f7f;
+  margin-top: 31px;
+  margin-right: 33px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+.grid-item {
+  border: 1px solid #e4e7ec;
+  padding: 0px;
+  margin: 8px 6px;
+  font-size: 30px;
+  text-align: center;
+  height: 181px;
+}
+.grid-header {
+  display: flex;
+  height: 30%;
+  padding: 16px;
+}
+.grid-header > img {
+  width: 36px;
+  height: 36px;
+}
+.grid-header-right {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  padding-left: 9px;
+}
+.grid-header-info-name {
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 16px;
+  line-height: 19px;
+  color: #444444;
+  margin-bottom: 2px;
+}
+.grid-header-info-date {
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 13px;
+  line-height: 16px;
+  color: #565656;
+  opacity: 0.5;
+}
+.fa.fa-star-o {
+  font-size: 16px;
+  color: #444444;
+  opacity: 0.3;
+  font-weight: 600;
+  fill: aquamarine;
+}
+.fa.fa-star {
+  color: #f8ce43;
+  font-size: 16px;
+}
+.grid-item-desc-p {
+  font-family: "Proxima Nova";
+  font-size: 14px;
+  line-height: 17px;
+  text-align: left;
+  color: #565656;
+  height: 34px;
+  overflow: hidden;
+  margin-top: 10px;
+  padding: 0px 16px 0px 16px;
+}
+.grid-item-desc-p > p {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.grid-item-desc {
+  padding-bottom: 15px;
+  border-bottom: 1px solid #e4e7ec;
+}
+.grid-item-details-campaign > img {
+  filter: invert(100%);
+  opacity: 0.3;
+  width: 13px;
+  height: 13px;
+  margin-right: 6px;
+}
+.grid-item-details-lead > img {
+  filter: invert(100%);
+  opacity: 0.3;
+  width: 13px;
+  height: 13px;
+  margin-right: 6px;
+}
+.grid-item-details-campaign {
+  margin-right: 6px;
+  display: flex;
+}
+.grid-item-details-lead {
+  display: flex;
+}
+.grid-item-details {
+  padding: 22px 16px;
+  display: flex;
+  font-family: "Proxima Nova";
+  font-size: 13px;
+  line-height: 16px;
+  opacity: 45%;
+}

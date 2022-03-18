@@ -1,5 +1,6 @@
 .header-container {
   width: 100%;
+  background-color: white;
 }
 .top-bar {
   display: flex;
@@ -7,6 +8,7 @@
 .top-bar-box {
   border-bottom: 1px solid #e2e2e2;
   border-right: 1px solid #e2e2e2;
+  max-height: 80px;
 }
 .top-bar-box > p {
   font-family: "Proxima Nova", sans-serif;
@@ -22,6 +24,7 @@
   justify-content: end;
   width: 100%;
   border-bottom: 1px solid #e2e2e2;
+  max-height: 80px;
 }
 
 .top-bar-box-right > p {
@@ -64,7 +67,7 @@
 
 .heading {
   display: flex;
-  margin: 31px 0px 31px 44px;
+  margin: 36px 0px 0px 44px;
   justify-content: space-between;
 }
 
