@@ -75,8 +75,9 @@ function ContentTable({ activeTab, teams, teamSearch }) {
   const dispatch = useDispatch();
   return (
     <div className="content-table">
-      {filteredTeams.length === 0 ? null : (
+      {filteredTeams == null || filteredTeams.length == 0 ? null : (
         <>
+          {console.log(filteredTeams)}
           <div className="content-header">
             <h2>{activeTab} Teams</h2>
 
@@ -87,7 +88,7 @@ function ContentTable({ activeTab, teams, teamSearch }) {
           <div class="grid-container">
             {teams == null || teams.length === 0
               ? null
-              : filteredTeams.length == 0
+              : filteredTeams == null || filteredTeams.length == 0
               ? null
               : filteredTeams.map((team) => (
                   <>
