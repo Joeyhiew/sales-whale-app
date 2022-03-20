@@ -1,12 +1,12 @@
 body {
-  min-width: 100%;
+  overflow-x: hidden; /* Hide horizontal scrollbar */
 }
 .container {
   margin-right: 0;
   margin-left: 0;
   padding: 0;
   display: flex;
-  min-width: 100%;
+  min-width: 100vw;
   background-color: #f1f4f8;
 }
 .content-panel {
@@ -22,5 +22,5 @@ body {
 .content-body {
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
 }

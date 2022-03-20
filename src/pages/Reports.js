@@ -9,18 +9,7 @@ import { useDispatch, connect } from "react-redux";
 import TabPanel from "../components/Tabs.js";
 import ContentTable from "../components/ContentTable.js";
 import Activity from "../components/Activity";
-function Teams() {
-  const dispatch = useDispatch();
-  useEffect(() => {
-    function getData() {
-      let teamsRef = firebaseApp.database().ref("teams");
-      return teamsRef.once("value", (snapshot) => {
-        const data = snapshot.val();
-        dispatch(getTeams(data));
-      });
-    }
-    getData();
-  }, [dispatch]);
+function Reports() {
   return (
     <div className="container">
       <SideNavigation />
@@ -31,11 +20,10 @@ function Teams() {
         </div>
 
         <div className="content-body">
-          <ContentTable />
-          <Activity />
+          <p>Reports</p>
         </div>
       </div>
     </div>
   );
 }
-export default Teams;
+export default Reports;

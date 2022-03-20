@@ -1,0 +1,56 @@
+.activity-table {
+  background-color: white;
+  margin-top: 42px;
+  width: 24%;
+  height: fit-content;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.05), 0px 0px 30px rgba(0, 0, 0, 0.1);
+}
+.activity-table-header {
+  border-bottom: 1px solid #efefef;
+}
+.activity-table-header > p {
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  color: #343434;
+  margin-top: 29px;
+  margin-left: 29px;
+}
+.no-data {
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  color: #727272;
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+.activity-item-list {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.activity-item {
+  padding: 0px 29px;
+  display: flex;
+}
+.activity-item > img {
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  margin-right: 9px;
+}
+.activity-item-details-desc {
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  color: #444444;
+  margin-bottom: 5px;
+}
+.activity-item-details-time {
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 13px;
+  line-height: 16px;
+  color: #565656;
+  opacity: 0.5;
+  margin-bottom: 15px;
+}

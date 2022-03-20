@@ -86,7 +86,7 @@
 }
 
 .btn.btn-default.btn-sm {
-  width: 189px;
+  width: auto;
   height: 36px;
   background-color: #40d2bf;
   color: #ffffff;

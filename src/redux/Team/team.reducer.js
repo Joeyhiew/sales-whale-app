@@ -3,6 +3,8 @@ import Types from "./team.types.js";
 const INITIAL_STATE = {
   teams: null,
   activeTab: "all",
+  teamSearch: "",
+  navTab: "/",
 };
 
 const teamsReducer = (state = INITIAL_STATE, action) => {
@@ -30,6 +32,16 @@ const teamsReducer = (state = INITIAL_STATE, action) => {
       return {
         ...state,
         teams: updatedTeams,
+      };
+    case Types.UPDATE_TEAM_SEARCH:
+      return {
+        ...state,
+        teamSearch: action.payload,
+      };
+    case Types.CHANGE_NAV:
+      return {
+        ...state,
+        navTab: action.payload,
       };
     default:
       return state;

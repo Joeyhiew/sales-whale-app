@@ -1,0 +1,17 @@
+.alert {
+  position: fixed;
+  top: 5px;
+  left: 27.5%;
+  width: 45%;
+  border: 1px solid #a7e1c4;
+  background-color: #ebf8f2;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 0;
+}
+.h4 {
+  font-size: 14px;
+  font-family: "Proxima Nova", sans-serif;
+  opacity: 0.65;
+  margin-bottom: 0;
+}
