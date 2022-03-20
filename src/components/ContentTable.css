@@ -83,7 +83,7 @@
   font-size: 16px;
 }
 .grid-item-desc-p {
-  font-family: "Proxima Nova";
+  font-family: "Proxima Nova", sans-serif;
   font-size: 14px;
   line-height: 17px;
   text-align: left;
@@ -94,7 +94,7 @@
   padding: 0px 16px 0px 16px;
 }
 .grid-item-desc-p > p {
-  font-family: "Proxima Nova";
+  font-family: "Proxima Nova", sans-serif;
   font-size: 14px;
   line-height: 17px;
   color: #565656;
@@ -121,14 +121,14 @@
   margin-right: 6px;
 }
 .grid-item-details-campaign > p {
-  font-family: "Proxima Nova";
+  font-family: "Proxima Nova", sans-serif;
   font-size: 13px;
   line-height: 16px;
   color: #000000;
   opacity: 0.45;
 }
 .grid-item-details-lead {
-  font-family: "Proxima Nova";
+  font-family: "Proxima Nova", sans-serif;
   font-size: 13px;
   line-height: 16px;
   color: #000000;
@@ -144,7 +144,7 @@
 .grid-item-details {
   padding: 22px 16px;
   display: flex;
-  font-family: "Proxima Nova";
+  font-family: "Proxima Nova", sans-serif;
   font-size: 13px;
   line-height: 16px;
 }
