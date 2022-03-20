@@ -44,7 +44,10 @@ function CreateModal(props) {
     }
 
     if (values.teamPic.indexOf("https://") == -1 && values.teamPic != "") {
-      errors.teamPic = "Image needs to be a url link (e.g. https://)";
+      errors.teamPic = "Image link needs to be a url link (e.g. https://)";
+    } else if (values.teamPic.match(/\.(jpeg|jpg|png)$/) == null) {
+      errors.teamPic =
+        "Image link needs to have a file extension: jpg/jpeg/png";
     }
 
     return errors;
@@ -96,14 +99,14 @@ function CreateModal(props) {
           .ref("teams")
           .child(teamLength)
           .set({
-            campaigns_count: values.campaignsCount,
+            campaigns_count: parseInt(values.campaignsCount, 10),
             created_at: date,
             description: values.teamDesc,
             id: teamLength + 1,
             image: urlLink,
             is_archived: false,
             is_favorited: false,
-            leads_count: values.leadsCount,
+            leads_count: parseInt(values.leadsCount, 10),
             name: values.teamName,
           })
           .then(() => {
